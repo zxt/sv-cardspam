@@ -25,10 +25,14 @@ body {
     min-height: 100%;
 }
 
-body#index {
+body{
     background-image: url("../img/bg/background_Morning_Star.jpg");
 }
 
 body#skreeee {
     background-image: url("../img/bg/background_Forest.jpg");
+}
+
+body#tondekei {
+    background-image: url("../img/bg/background_Hall.jpg");
 }
