@@ -25,6 +25,18 @@ body {
     min-height: 100%;
 }
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  flex: 0 0 25%;
+  margin: 20px 20px;
+}
+
 body{
     background-image: url("../img/bg/background_Morning_Star.jpg");
 }
@@ -39,4 +51,12 @@ body#tondekei {
 
 body#dingdong {
     background-image: url("../img/bg/background_Track_Morning.jpg");
+}
+
+body#fluffybutt {
+    background-image: url("../img/bg/background_DarkForest.jpg");
+}
+
+body#tartman {
+    background-image: url("../img/bg/background_Lake.jpg");
 }
